@@ -1,0 +1,30 @@
+# Commands covered:  sha1
+#
+# This file contains a collection of tests for one or more of the Tcl
+# built-in commands.  Sourcing this file into Tcl runs the tests and
+# generates output for errors.  No output means no errors were found.
+#
+# Copyright (c) 2000 by Scriptics Corporation.
+#
+# See the file "license.terms" for information on usage and redistribution
+# of this file, and for a DISCLAIMER OF ALL WARRANTIES.
+
+if {[lsearch [namespace children] ::tcltest] == -1} {
+    package require tcltest
+    namespace import ::tcltest::*
+}
+
+package require tclcrc
+
+test crc64ecma-1.1 {without initValue} {
+    set result [crc64ecma penguin]
+} {-7888721539010710952}
+
+
+test crc64ecma-1.2 {with initValue} {
+    set result [crc64ecma penguin 1]
+} {-5734581134949198156}
+
+# cleanup
+::tcltest::cleanupTests
+return
