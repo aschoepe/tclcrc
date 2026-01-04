@@ -1,7 +1,7 @@
-C Version-1.1\snow\sTcl\s9.x\scompatible
-D 2026-01-04T10:03:47.221
+C Cleanup\sMakefile.in
+D 2026-01-04T23:08:29.327
 F ChangeLog 2e81817cb67c7aabaf8f54c31ef7e572faa3c2a7f22ccb210c0dd7dfbeeb7ecf
-F Makefile.in a79aabaeb5f12186aefd81b7403040d1220671b8716b07babf33146626749365
+F Makefile.in dad887cd037310aac7772db20a66fad74fc12cfa7125cd5e1194518d49d190c6
 F README f3f0b31b6cf39d6cc6a50116272d963f3cce15b6e728cd6adf05fbc84f1c9ffe
 F README.sha 9bd1c9d788fc18424b8ec2408ccf12bd49cb2bd7e01919636015aff1c1540d76
 F aclocal.m4 58f10c8cbd82538c278c569674ee8b9336dec628f3ca8de44d70509c8d6610c3
@@ -37,11 +37,8 @@ F win/nmakehlp.c 7c91ae455c4eaf890624d3f80eba6398c67a50743651cd41ee0d73e1f472a0a
 F win/rules-ext.vc 644b2e6f5d1c961b6b3bef6d193db935f356ee17bd9d5fc933c29ab099b0d0bc
 F win/rules.vc d4ef6ed46d1fe6c94fdf32906ed2b89e4a2339806e141703c66190e853e059e5
 F win/targets.vc 7bffe9bf125b55f551b6bb47b22a9f36812c26a54ef1bdf1aa353ddc2e4530d9
-P 73430524d9556947c5dd128bc28c74d9cf203e36c31d8a67c7a9d27f625c4174
-R f042cc06ae5ed1cc432d785ae1780f58
-T +bgcolor * #fea5f4
-T +sym-release *
-T +sym-version-1.1 *
+P ed35ae5580f468301e02506ed0abb2482574b476a7e17a444f6dabc4aae475c5
+R 6c72bd62728624e27ec9dfb09ca13a42
 U alex
-Z 4ae8bffc3ec11525f7745c689b7e8b39
+Z a4176026f92e9ceb60e23949d29e68dd
 # Remove this line to create a well-formed Fossil manifest.
